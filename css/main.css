@@ -46,6 +46,7 @@ form {
     gap: 14px;
     margin: auto;
     width: 350px;
+    margin-block: 14px;
 }
 
 h1,
