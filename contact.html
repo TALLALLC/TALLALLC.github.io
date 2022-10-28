@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Computer Graphics Conference - About</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/main.js'></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="index.html" class="navbar-brand"><img src="imgs/Logo.png" alt="Computer Graphics Conference"></a>
+        <a href="#menu" class="navbar-burger">
+            <div class="navbar-burger-line">
+            </div>
+            <div class="navbar-burger-line">
+            </div>
+            <div class="navbar-burger-line">
+            </div>
+        </a>
+        <div class="navbar-items-c">
+            <button id="close-menu" type="button"><img src="imgs/close.png" alt="close menu"></button>
+            <nav class="navbar-menu">
+                <a href="index.html" class="navbar-menu-link">Home</a>
+                <a href="about.html" class="navbar-menu-link">About Us</a>
+                <a href="contact.html" class="navbar-menu-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="tight center top">
+        <h2>Contact</h2>
+        <hr>
+        <p>We're always interested in hearing about you, so if you'd like to chat please get in touch.</p>
+        <ul>
+            <li>talla.jose.palacios@gmail.com</li>
+            <li>660 853 0068</li>
+        </ul>
+    </section>
+    <section class="partners black-bg">
+        <h2>Get in contact</h2>
+        <hr>
+        <form action="https://formspree.io/f/xlezgrpw" method="post" id="comment">
+            <input type="text" name="name" placeholder="Full name" maxlength="30" required>
+            <input type="email" name="email" placeholder="Email address"  aria-errormessage="error-message" required>
+            <textarea name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+            <button type="submit">Get in touch</button>
+            <small id="error-message"></small>
+        </form>
+    </section>
+    <footer class="black-bg-md">
+        <div class="f-logo"></div>
+        <div>
+            <h2 class="h4">TALLA.</h2>
+            <p>©  Copyright 2022 TALLA</p>
+        </div>
+    </footer>
+</body>
+
+</html>
